@@ -107,14 +107,14 @@ yesBtn.addEventListener("click", () => {
 
 // Breakfast option clicked
 breakfastBtn.addEventListener("click", () => {
-  sendEmail("Desayunar", "Desayuno en Café ... a las 9am.");
-  showFinalMessage("Desayuno en Café ... a las 9am.");
+  sendEmail("Desayunar", "Desayuno en Época 27 Desayuno & Brunch a las 9:30 am.");
+  showFinalMessage("Desayuno en Época 27 Desayuno & Brunch a las 9:30 am.");
 });
 
 // Dinner option clicked
 dinnerBtn.addEventListener("click", () => {
-  sendEmail("Cenar", "Cena en Restaurante ... a las 7pm.");
-  showFinalMessage("Cena en Restaurante ... a las 7pm.");
+  sendEmail("Cenar", "Cena en Restaurante Panorama Rooftop a las 7:30 pm.");
+  showFinalMessage("Cena en Restaurante Panorama Rooftop a las 7:30 pm.");
 });
 
 // Function to send email
